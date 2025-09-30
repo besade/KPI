@@ -1,0 +1,91 @@
+﻿@startuml
+
+object Customer {
+customer_id
+first_name
+last_name
+phone_number
+email
+date_of_birth
+}
+
+object Address {
+address_id
+customer_id
+country
+city
+address_line
+}
+
+object Category {
+category_id
+name
+}
+
+object Product {
+product_id
+category_id
+name
+country
+weight
+stock_quantity
+price
+}
+
+object Review {
+review_id
+customer_id
+product_id
+comment
+rating
+review_date
+}
+
+object Cart_Item {
+cart_id
+product_id
+unit_price
+quantity
+total_item_price
+}
+
+object Cart {
+cart_id
+customer_id
+total_price
+}
+
+object Order_Item {
+order_id
+product_id
+unit_price
+quantity
+total_item_price
+}
+
+object Order {
+order_id
+customer_id
+address_id
+recipient_first_name
+recipient_last_name
+customer_is_recipient
+delivery_type
+order_date
+status
+payment_type
+total_price
+}
+
+Customer o-- Address
+Customer o-- Cart
+Cart o-- Cart_Item
+Cart_Item *-- Product
+Order o-- Address
+Order *-- Order_Item
+Order_Item *-- Product
+Product *-- Category
+Customer o-- Review
+Review o-- Product
+
+@enduml
