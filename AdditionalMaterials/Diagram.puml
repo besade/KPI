@@ -78,14 +78,16 @@ total_price
 }
 
 Customer o-- Address
-Customer o-- Cart
-Cart o-- Cart_Item
-Cart_Item *-- Product
+Customer *-- Cart
+Cart *-- Cart_Item
+Cart_Item o-- Product
+Customer o-- Order
 Order o-- Address
 Order *-- Order_Item
-Order_Item *-- Product
-Product *-- Category
-Customer o-- Review
+Order_Item o-- Product
+Category o-- Product
+Customer *-- Review
 Review o-- Product
+
 
 @enduml
