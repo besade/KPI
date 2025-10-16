@@ -94,12 +94,12 @@ Manager --> (Check Stock)
 @enduml
 ```
 ## **Requirements**
-**1. Customer must be able to register and manage their profile**
-**2. Customer must be able to browse and search products**
-**3. Customer must be able to manage shopping cart**
-**4. Customer must be able to make and pay for orders, make reviews**
-**5. Administrator must be able to manage products, catalogs and stock**
-**6. Administrator must be able to view and update customer orders, view customer reviews**
+1. ** Customer must be able to register and manage their profile**
+2. ** Customer must be able to browse and search products**
+3. ** Customer must be able to manage shopping cart**
+4. ** Customer must be able to make and pay for orders, make reviews**
+5. ** Administrator must be able to manage products, catalogs and stock**
+6. ** Administrator must be able to view and update customer orders, view customer reviews**
 ---
 ## **Requirements Traceability Matrix**
 | Use Case ↓ / Requirement →   | R1 | R2 | R3 | R4 | R5 | R6 |
