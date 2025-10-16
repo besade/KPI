@@ -23,8 +23,8 @@
 | Change Personal Information  | ✅ |    |    |    |    |    |
 | Check Orders History         | ✅ |    |    |    |    |    |
 | Check Reviews                |   |    |    |    |    | ✅ |
-| Check Stock                  |   |    |    |    | ✅ |    |
-| Choose Address               |   |    |    | ✅ |    |    |
+| Check Stock                  |   |    |    | ✅ | ✅ |    |
+| Choose Address               | ✅ |    |    | ✅ |    |    |
 | Complete Registration        | ✅ |    |    |    |    |    |
 | Delete Address               | ✅ |    |    |    |    |    |
 | Delete All Cart Items        |   |    | ✅ |    |    |    |
@@ -38,10 +38,10 @@
 | Make Product Review          |   |    |    | ✅ |    |    |
 | Manage Catalogs              |   |    |    |    | ✅ |    |
 | Manage Products              |   |    |    |    | ✅ |    |
-| Submit Order                 |   |    |    | ✅ |    |    |
+| Submit Order                 |   |    |    | ✅ |    | ✅ |
 | Submit Payment               |   |    |    | ✅ |    |    |
 | Update Order Status          |   |    |    |    |    | ✅ |
-| Update Stock                 |   |    |    |    | ✅ |    |
+| Update Stock                 |   |    |    | ✅ | ✅ |    |
 | View Catalogs                |   |    | ✅ |    |    |    |
 | View Orders                  |   |    |    |    |    | ✅ |
 | View Products                |   | ✅ |    |    |    |    |
