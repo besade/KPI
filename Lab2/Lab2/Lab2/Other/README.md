@@ -4,7 +4,7 @@
 ## PLANTUML Declaration
 ```plantuml
 @startuml
-!include Use_Case.puml
+!include ../Use_Case.puml
 @enduml
 ```
 ## **Requirements**
