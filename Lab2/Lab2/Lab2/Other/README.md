@@ -1,6 +1,12 @@
 ﻿# **Sweet Shop - Lab2 - Use Cases**
 ![UCD](../Diagram/Use_Case_Diagram.png)
 ---
+## **Functional and Non-Functional Requirements**
+### **Functional Requirements**
+
+### **Non-Functional Requirements**
+232
+---
 ## PLANTUML Declaration
 ```plantuml
 @startuml
@@ -94,6 +100,7 @@ Manager --> (Check Stock)
 **4. Customer must be able to make and pay for orders, make reviews**
 **5. Administrator must be able to manage products, catalogs and stock**
 **6. Administrator must be able to view and update customer orders, view customer reviews**
+---
 ## **Requirements Traceability Matrix**
 | Use Case ↓ / Requirement →   | R1 | R2 | R3 | R4 | R5 | R6 |
 |------------------------------|----|----|----|----|----|----|
@@ -132,6 +139,6 @@ Manager --> (Check Stock)
 | View Orders                  |   |    |    |    |    | ✅ |
 | View Products                |   | ✅ |    |    |    |    |
 | View Profile                 | ✅ |    |    |    |    |    |
-
+---
 
 
