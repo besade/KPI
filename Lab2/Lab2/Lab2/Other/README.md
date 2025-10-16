@@ -3,7 +3,7 @@
 ---
 ## PLANTUML Declaration
 ```plantuml
-!include ../Use_Case.puml
+!include /Use_Case.puml
 ```
 ## **Requirements**
 **1. Customer must be able to register and manage their profile**
