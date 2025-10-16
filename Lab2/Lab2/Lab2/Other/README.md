@@ -1,7 +1,7 @@
 ﻿# **Sweet Shop - Lab2 - Use Cases**
 ![UCD](../Diagram/Use_Case_Diagram.png)
 ---
-## **Functional and Non-Functional Requirements**
+# **Functional and Non-Functional Requirements**
 ## **Detailed Functional Requirements**
 ### 1. **Customer Management**
 
@@ -91,7 +91,7 @@
 7.2 **The system shall be compatible with Windows, macOS, and mobile operating systems.**
 
 ---
-## PLANTUML Declaration
+# PLANTUML Declaration
 ```plantuml
 @startuml
 left to right direction
@@ -185,7 +185,7 @@ Manager --> (Check Stock)
 5. **Administrator must be able to manage products, catalogs and stock**
 6. **Administrator must be able to view and update customer orders, view customer reviews**
 ---
-## **Requirements Traceability Matrix**
+# **Requirements Traceability Matrix**
 | Use Case ↓ / Requirement →   | R1 | R2 | R3 | R4 | R5 | R6 |
 |------------------------------|----|----|----|----|----|----|
 | Add Address                  | ✅ |    |    |    |    |    |
