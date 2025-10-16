@@ -2,9 +2,10 @@
 ![UCD](../Diagram/Use_Case_Diagram.png)
 ---
 ## PLANTUML Declaration
-```plantuml
-!include /Use_Case.puml
-```
+> ```plantuml
+> !include Use_Case.puml
+> @enduml
+> ```
 ## **Requirements**
 **1. Customer must be able to register and manage their profile**
 **2. Customer must be able to browse and search products**
