@@ -1,6 +1,12 @@
 ﻿# **Sweet Shop - Lab2 - Use Cases**
 ![UCD](../Diagram/Use_Case_Diagram.png)
 ---
+## PLANTUML Declaration
+```plantuml
+@startuml
+!include Use_Case.puml
+@enduml
+```
 ## **Requirements**
 **1. Customer must be able to register and manage their profile**
 **2. Customer must be able to browse and search products**

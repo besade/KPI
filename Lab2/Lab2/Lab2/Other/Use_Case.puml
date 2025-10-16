@@ -1,0 +1,83 @@
+﻿@startuml
+left to right direction
+skinparam usecase {
+  BackgroundColor #FDF6E3
+  BorderColor #657B83
+  ArrowColor #586E75
+  ActorBorderColor black
+  ActorFontColor black
+  UsecaseFontColor black
+}
+
+actor Customer
+actor "Shop Manager" as Manager
+
+' === CUSTOMER USE CASES ===
+Customer --> (View Profile)
+Customer --> (View Products)
+Customer --> (Check Cart)
+Customer --> (Make Order)
+Customer --> (Make Product Review)
+Customer --> (Check Orders History)
+
+(View Profile) --> (Add Address) : <<use>>
+(View Profile) --> (Delete Address) : <<extends>>
+(View Profile) --> (Change Personal Information) : <<extends>>
+(View Profile) --> (Complete Registration) : <<extends>>
+
+(Complete Registration) --> (Add Personal Information) : <<extends>>
+(Complete Registration) --> (Add Address) : <<use>>
+
+(View Products) --> (View Catalogs) : <<extends>>
+(View Products) --> (Find Products by Name) : <<extends>>
+(View Products) --> (Add Item to Cart) : <<extends>>
+
+(Add Item to Cart) --> (Change Cart Item Quantity) : <<use>>
+(Add Item to Cart) --> (Delete Item from Cart) : <<use>>
+(Add Item to Cart) --> (Delete All Cart Items) : <<use>>
+
+(Check Cart) --> (Delete Item from Cart) : <<extends>>
+(Check Cart) --> (Add Item to Cart) : <<use>>
+(Check Cart) --> (Change Cart Item Quantity) : <<use>>
+(Check Cart) --> (Delete All Cart Items) : <<use>>
+(Check Cart) --> (Check Stock) : <<use>>
+
+(Make Order) --> (Check Cart) : <<use>>
+(Make Order) --> (Change Recipient Information) : <<extends>>
+(Make Order) --> (Choose Address) : <<use>>
+(Make Order) --> (Submit Order) : <<extends>>
+
+(Submit Order) --> (Submit Payment) : <<use>>
+(Submit Order) --> (Check Stock) : <<use>>
+
+(Make Product Review) --> (View Products) : <<use>>
+(Check Orders History) --> (Make Product Review) : <<use>>
+
+
+' === SHOP MANAGER USE CASES ===
+Manager --> (Manage Products)
+Manager --> (Manage Catalogs)
+Manager --> (Check Stock)
+Manager --> (View Orders)
+Manager --> (Check Reviews)
+
+(Manage Products) --> (Add Product) : <<extends>>
+(Manage Products) --> (Edit Product) : <<extends>>
+(Manage Products) --> (Delete Product) : <<extends>>
+(Manage Products) --> (Update Stock) : <<use>>
+
+(Manage Catalogs) --> (Add Catalog) : <<extends>>
+(Manage Catalogs) --> (Edit Catalog) : <<extends>>
+(Manage Catalogs) --> (Delete Catalog) : <<extends>>
+
+(View Orders) --> (Update Order Status) : <<extends>>
+(View Orders) --> (Check Stock) : <<use>>
+
+(Check Reviews) --> (Make Product Review) : <<use>>
+(Check Stock) --> (View Products) : <<use>>
+
+' === SHARED USE CASES ===
+Customer --> (Check Stock)
+Manager --> (Check Stock)
+
+@enduml
