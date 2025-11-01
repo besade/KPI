@@ -1,6 +1,6 @@
 # **Creation and Confirmation of an Order**
 
-![SD](./Sequence_Diagram_V2_1.png)
+![SD](./Sequence_Diagram_V2_3.png)
 
 # **Manager Authorization**
 
