@@ -62,7 +62,6 @@ loop [- Successful Order]
   ShopWebsite -> ShopManager : 17. Notification
   deactivate ShopWebsite
 
-  ' --- Manager processes the order ---
   loop [- Successful Request]
     ShopManager -> ShopWebsite : 18. Request Admin Panel Access
     activate ShopWebsite
