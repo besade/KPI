@@ -1,13 +1,13 @@
 # **Creation and Confirmation of an Order**
 
 ## **BPMN Diagram**
-![BPMN](.//BPMN_Diagram.png)
+![BPMN](./images/BPMN_Diagram.png)
 
 ## **Activity Diagram**
-![ACTIVITY](.//Activity_Diagram.png)
+![ACTIVITY](./images/Activity_Diagram.png)
 
 # **PlantUML Declaration**
-![PUML](.//PUML_Activity.png)
+![PUML](./images/PUML_Activity.png)
 
 ```plantuml
 @startuml
