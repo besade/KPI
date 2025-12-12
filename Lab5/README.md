@@ -1,6 +1,6 @@
 # **Component Diagram**
 
-![CD](.\images\Component_Diagram.png)
+![CD](./images/Component_Diagram.png)
 
 ## **PUML Declaration**
 
@@ -141,4 +141,4 @@ Order -left-( DELIVERY_API
 
 ## **PUML Generated Image**
 
-![PUML](.\images\PUML.png)
+![PUML](./images/PUML.png)
